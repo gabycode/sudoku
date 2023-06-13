@@ -22,8 +22,16 @@ export default function Home() {
       <h1>Sudoku</h1>
       <hr />
       <h2 className="errors">{errors}</h2>
-      <SudokuGrid board={board} />
-      <Numbers />
+      <SudokuGrid
+        board={board}
+        setBoard={setBoard}
+        selectedNumber={selectedNumber}
+        setErrors={setErrors}
+      />
+      <Numbers
+        selectedNumber={selectedNumber}
+        setSelectedNumber={setSelectedNumber}
+      />
     </div>
   );
 }
