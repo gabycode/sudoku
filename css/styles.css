@@ -34,6 +34,10 @@ hr {
   border: 1px solid lightgray;
 }
 
+.tile-start {
+  background-color: whitesmoke;
+}
+
 .digits {
   width: 450px;
   height: 50px;
@@ -53,4 +57,12 @@ hr {
 
 .number.active {
   background-color: grey;
+}
+
+.horizontal-line {
+  border-bottom: 1px solid black;
+}
+
+.vertical-line {
+  border-right: 1px solid black;
 }
