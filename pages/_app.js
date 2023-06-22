@@ -6,6 +6,7 @@ export default function SudokuApp({ Component, pageProps }) {
     <>
       <Head>
         <title>Sudoku</title>
+        <link rel="icon" href="/sudoku-icon.png" />
       </Head>
       <Component {...pageProps} />
     </>
